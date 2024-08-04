@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0px;
+  align-item :center;
   background-image: linear-gradient(to right, #fccf31, #ffb02f, #ff9139, #ff7247, #f55555);
 }
 html{
