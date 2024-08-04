@@ -1,0 +1,57 @@
+
+
+.container {
+  margin-top: 160px;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  height: 70vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 100%;
+  height: 70vh ;
+  object-fit: cover; 
+  transition: .5s;
+}
+
+
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 70vh;
+  object-fit: contain;
+}
+ 
+.custom-shape-divider-top-1722751551 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1722751551 svg {
+  position: relative;
+  display: block;
+  width: calc(149% + 1.3px);
+  height: 195px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1722751551 .shape-fill {
+  fill: #885555;
+}
+

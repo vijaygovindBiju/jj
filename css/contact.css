@@ -1,0 +1,118 @@
+.contactP{
+    margin: auto;
+    padding: auto;
+    margin-top: 130px;
+    padding:0px 50px 30px 50px;
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 50px;
+    overflow: hidden;
+    max-width: max-content;
+    max-height: max-content;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    backdrop-filter: blur(10px);
+    border-top:2px solid rgba(255, 255, 255, 0.9) ;
+    border-left:2px solid rgba(255, 255, 255, 0.7) ;
+    box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+}
+.contactP h1{
+  line-height: 40px;
+  font-weight: bolder;
+  color: red;
+  font-style: italic;
+  font-size: 40px;
+  margin: 20px;
+}
+.contactP p{
+  line-height: 30px;
+  font-weight: 900;
+  font-size: 20px;
+}
+#name{
+  width: 400px;
+  font-size: larger;
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: 600;
+  margin: 15px;
+  display: flex;
+}
+#email{
+  display: flex;
+  width: 400px;
+  font-size: larger;
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: 600;
+  margin: 15px;
+}
+#phone{
+  display: flex;
+  width: 400px;
+  font-size: larger;
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: 600;
+  margin: 15px;
+}
+#commend{
+  width: 400px;
+  font-size: larger;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  font-weight: 600;
+  margin: 15px;
+  height: 30vh;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.phone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.commend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.button{
+  padding: 5px 15px 5px 15px;
+  font-size: larger;
+  font-weight: 900;
+  background-color: red;
+  border-radius: 20px;
+  color: whitesmoke;
+  transition: .9s all;
+}
+.button:hover{
+  box-shadow: 2px 2px 2px black;
+  border: 1px solid red;
+  color: red;
+  background-color: wheat;
+  cursor: pointer;
+}

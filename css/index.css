@@ -1,0 +1,284 @@
+
+.one{
+  background-image: linear-gradient(to right, #fccf31, #ffb02f, #ff9139, #ff7247, #f55555);
+  margin-bottom: 100vh;
+}
+.font1{
+  position: absolute;
+  text-transform: uppercase;
+  left: 2%;
+  top:40vh;
+  overflow: hidden;
+  z-index: 10000;
+  font-family:'Courier New', Courier, monospace;
+}
+.arowDown{
+  position: absolute;
+  left: 60%;
+  width: 60px;
+  z-index: 10000000;
+  display: grid;
+  top: 70vh;
+  border-radius: 90%;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.466);
+  border: 2px white solid;
+}
+.arowDown svg{
+  filter: drop-shadow(10px 10px 10px white);
+  color: white;
+  padding: 5px;
+}
+.hello{
+  font-size: 80px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: red;
+  line-height: 90px;
+  text-wrap-mode:wrap;
+  word-wrap: break-word;
+}
+.tittle{
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+  line-height: 90px;
+}
+.title1{
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  text-transform: lowercase;
+  font-weight: 100;
+  font-style: normal;
+  color: aliceblue;
+  line-height: 90px;
+  text-align: center;
+}
+.two{
+  background-image: linear-gradient(to right, #fccf31, #ffb02f, #ff9139, #ff7247, #f55555);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.glass{
+  margin: auto;
+  padding:0px 50px 30px 50px;
+  background-color: rgba(255, 255, 255, 0.274);
+  border-radius: 50px;
+  max-height: 600px;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  max-width: 500px;
+  min-width: 200px;
+  display: flex;
+  z-index: 1000;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+}
+.glass p{
+  line-height: 27px;
+  font-size: 20px;
+  font-stretch: expanded;
+}
+.glass h1{
+  font-size: 40px;
+  line-height: 90px;
+}
+.three{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-wrap-mode:wrap;
+  word-wrap: break-word;
+}
+.glas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.glass1{
+  padding:0px 50px 30px 50px;
+  background-color: rgba(255, 255, 255, 0.274);
+  border-radius: 50px;
+  overflow: hidden;
+  width: 200px;
+  height:350px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  margin: 50px;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+}
+.glass2{
+  padding:0px 50px 30px 50px;
+  background-color: rgba(255, 255, 255, 0.274);
+  border-radius: 50px;
+  overflow: hidden;
+  width: 200px;
+  height:350px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  margin: 50px;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+}
+.glass3{
+  padding:0px 50px 30px 50px;
+  background-color: rgba(255, 255, 255, 0.274);
+  border-radius: 50px;
+  overflow: hidden;
+  width: 200px;
+  height:350px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  margin: 50px;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+}
+.four{
+  background-image: linear-gradient(to right, #fccf31, #ffb02f, #ff9139, #ff7247, #f55555);
+  display: flex;
+  padding: ;
+  margin:  ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.glass4{
+  margin: auto;
+  padding:0px 50px 30px 50px;
+  background-image: linear-gradient(to right bottom, #a5c0d3, #90bcc8, #80b7b6, #7bb09f, #81a786, #82936d, #817f5a, #7c6b4c, #634d3c, #45332d, #261c1c, #000000);  border-radius: 50px;
+  margin-top: auto;
+  display: flex;
+  max-width: 700px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+  margin: 50px;
+}
+
+
+
+.three h1{
+  font-size: 100px;
+  font-weight: 700;
+  font-style: italic;
+  z-index: 10;
+  line-height: 100px;
+  color: whitesmoke;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.three p{
+  font-size: 30px;
+  z-index: 2;
+  color: aquamarine;
+  font-weight: 700;
+}
+.glass1 img{
+  width: 150%;
+  height: 200px;
+  margin: 0%;
+  object-fit:cover ;
+
+}
+.glass2 img{
+  width: 150%;
+  height: 200px;
+  object-fit: cover ;
+}
+.glass3 img{
+  width: 160%;
+  height: 200px;
+  object-fit:fill ;
+}
+.glass1 h1{
+  font-size: 30px;
+  color: red;
+  line-height: 25px;
+  position: absolute;
+  margin: 10px;
+}
+.glass1 p{
+  font-size: 20px;
+  line-height: 27px;
+}
+.glass2 h1{
+  font-size: 30px;
+  color: red;
+  line-height: 25px;
+  position: absolute;
+  margin: 10px;
+  
+}
+.glass2 p{
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.glass3 h1{
+  font-size: 30px;
+  line-height: 40px;
+  color: red;
+  margin: 10px;
+  position: absolute;
+}
+.glass3 p{
+  font-size: 20px;
+  line-height: 25px;
+
+}
+.four h1{
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: 1000;
+  z-index: 3;
+}
+.glass4 p{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color:whitesmoke
+}
+.glass4 img{
+  width: 200px;
+  object-fit: fill;
+  border-radius: 20px;
+  margin: 20px;
+}
