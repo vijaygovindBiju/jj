@@ -1,0 +1,379 @@
+:root{
+  
+  --background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+  --font_color:rgb(255, 244, 244);
+  --slide_bar:#c23939;
+  --glass_Back:rgba(255, 255, 255, 0.274);
+  --backg_Button:linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  --font_Button:#fff;
+ --wave:#ff0000d3;
+ --footer:rgba(255, 0, 0, 0.486);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  margin: 0;
+  height: max-content;
+  padding: 0px;
+  background-image:  var(--background);
+}
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  animation: grays 1s ease-out ;
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  backdrop-filter: blur(0px);
+  top: 0%;
+  background-color: transparent;
+  width: 100%;
+  backdrop-filter: blur(10000px);
+  padding: 0px;
+  box-shadow: 1px 1px 0px rgba(245, 245, 245, 0.466);
+  filter:hue-rotate(12);
+  position: fixed;
+  z-index: 10000000;
+}
+nav ul{
+  
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav li{
+  height: 50px;
+}
+nav{
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+}
+li a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: var(--font_color);
+  border-radius: 25px;
+  position: relative;
+}
+.logo-main{
+  margin-right: auto;
+}
+.sidebar{
+  position: fixed;
+  top: 0; 
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: var(--slide_bar);
+  backdrop-filter: blur(12px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  padding-top: 20px;
+  z-index:100000000000000 ;
+}
+.sidebar li{
+  width: 100%;
+}
+.sidebar a{
+  width: 100%;
+}
+.menu-button{
+  display: none;
+}
+@media(max-width: 800px){
+  .hideOnMobile{
+    display: none;
+  }
+  .showOnphone{
+    display: flex;
+  }
+  .menu-button{
+    display: block;
+    margin-top: 10px;
+  }
+  .contact p{
+    font-size: 20px;
+  }
+}
+@media(max-width: 400px){
+  .sidebar{
+    width: 100%;
+  }
+}
+.logo{
+  width: 100px;
+  margin: 0%;
+  padding: 0px;
+  object-fit: fill;
+}
+.logo:hover{
+  filter: drop-shadow(5px 5px 5px #ff1e00);
+}
+
+#button {
+  font-weight: 1000;
+  font-size: 19px;
+  text-align: center;
+  color: var(--font_Button);
+  cursor: pointer;
+  position: relative;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+  z-index: 3;
+  width: max-content;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  position: relative;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+#button:before {
+  content: '';
+  background: var(--backg_Button);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 700%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 30px;
+}
+#button:active:after {
+  background: transparent;
+}
+
+#button:hover:before {
+  opacity: 1;
+}
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+.glass1 a, .glass2 a, .glass3 a{
+  margin-top: 20px;
+  display: flex;
+  padding: 20px;
+}
+.contact-b{
+  padding: 10px;
+  font-weight: 900;
+  font-size: xx-large;
+  margin-left: 30px;
+  border: none;
+}
+.contact{
+  margin-top: 90px;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  vertical-align:middle;
+  background-color: var(--footer);
+  display: flex;
+  color: var(--font_color);
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: none;
+}
+
+
+.wave1 {
+  position: absolute;
+  top: 0dvh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave1 .shape-fill {
+  fill: #F1000070;
+}
+
+
+.wave2 {
+  position: absolute;
+  top: 100dvh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave2 .shape-fill {
+  fill: #F1000070;
+}
+
+
+.wave3 {
+  position: absolute;
+  top: 200dvh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave3 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave3 .shape-fill {
+  fill: #F1000070;
+}
+
+
+.wave4 {
+  position: absolute;
+  top: 300dvh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave4 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave4 .shape-fill {
+  fill: #F1000070;
+}
+
+
+.wave5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave5 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave5 .shape-fill {
+  fill: #F1000070;
+}
+
+.wave6 {
+  position: absolute;
+  bottom: -100dvh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave6 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave6 .shape-fill {
+  fill: #F1000070;
+}
+
+.wave7 {
+  position: absolute;
+  bottom: -200dvh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave7 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave7 .shape-fill {
+  fill: #F1000070;
+}
+
+.wave8 {
+  position: absolute;
+  bottom: -300dvh;
+  left: 0;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave8 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave8 .shape-fill {
+  fill: #F1000070;
+}
+
+
+.active{
+  background-color: #ff2314;
+}

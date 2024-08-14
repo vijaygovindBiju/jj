@@ -1,0 +1,544 @@
+:root{
+  --h3_Color:aquamarine;
+}
+
+
+.one{
+  width: 100dvw;
+  height: 100dvh;
+  position: relative;
+}
+.one img{
+  width: 100dvw;
+  height: 100dvh;
+  object-fit: cover;
+}
+
+.two{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.glass{
+  transition: 1s all;
+  opacity: 0;
+  margin: auto;
+  padding:0px 50px 30px 50px;
+  background-color: var(--glass_Back) ;
+  border-radius: 50px;
+  max-height: 700px;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  max-width: 500px;
+  min-width: 200px;
+  scale: 0;
+  opacity: 0;
+  display: flex;
+  z-index: 1000;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 1s all linear;
+  align-content: center;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+
+}
+
+.glass p{
+  line-height: 27px;
+  font-size: 20px;
+  color: snow;
+  font-stretch: expanded;
+  font-weight: 600;
+}
+.glass h1{
+  font-size: 40px;
+  line-height: 90px;
+  color: snow;
+  font-weight: 900;
+}
+.three{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-wrap-mode:wrap;
+  word-wrap: break-word;
+}
+.glas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.glass1{
+  padding:0px 50px 30px 50px;
+  background-color: var(--glass_Back) ;;
+  border-radius: 50px;
+  overflow: hidden;
+  width: 200px;
+  height:350px;
+  opacity: 1;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  margin: 50px;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+  opacity: 0;
+  transition: 1s all linear;
+  transform: translateX(70vw);
+  scale: 0;
+}
+.glass2{
+  padding:0px 50px 30px 50px;
+  background-color:var(--glass_Back) ;;
+  border-radius: 50px;
+  overflow: hidden;
+  width: 200px;
+  height:350px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  margin: 50px;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+  opacity: 0;
+  transition: 1s all linear;
+  transform: translateX(70vw);
+  scale: 0;
+}
+.glass3{
+  padding:0px 50px 30px 50px;
+  background-color: var(--glass_Back) ;;
+  border-radius: 50px;
+  overflow: hidden;
+  width: 200px;
+  height:350px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  margin: 50px;
+  backdrop-filter: blur(10px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+
+  opacity: 0;
+  transition: 1s all linear;
+  transform: translateX(70vw);
+  scale: 0;
+}
+.four{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.glass4{
+  margin: auto;
+  padding:0px 50px 30px 50px;
+  background-image: var(--couch_Back);
+  border-radius: 50px;
+  margin-top: auto;
+  display: flex;
+  max-width: 700px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  backdrop-filter: blur(500px);
+  border-top:2px solid rgba(255, 255, 255, 0.9) ;
+  border-left:2px solid rgba(255, 255, 255, 0.7) ;
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
+  margin: 50px;
+  opacity: 0;
+  transition: 1s all linear;
+  transform: translateX(70vw);
+  scale: 0;
+
+}
+.three h1{
+  font-size: 9dvi;
+  font-weight: 700;
+  font-style: italic;
+  z-index: 10;
+  line-height: 100px;
+  color: var(--font_Button);
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.three p{
+  font-size: 30px;
+  z-index: 2;
+  color: var(--h3_Color);
+  font-weight: 700;
+}
+.glass1 img{
+  width: 150%;
+  height: 200px;
+  margin: 0%;
+  object-fit:cover ;
+
+}
+.glass2 img{
+  width: 150%;
+  height: 200px;
+  object-fit: cover ;
+}
+.glass3 img{
+  width: 160%;
+  height: 200px;
+  object-fit:fill ;
+}
+.glass1 h1{
+  font-size: 30px;
+  color: red;
+  line-height: 25px;
+  position: absolute;
+  margin: 10px;
+}
+.glass1 p{
+  font-size: 20px;
+  color: var(--font_color);
+  font-weight: 700;
+  line-height: 27px;
+}
+.glass2 h1{
+  font-size: 30px;
+  color: red;
+  line-height: 25px;
+  position: absolute;
+  margin: 10px;
+  
+}
+.glass2 p{
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--font_color);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.glass3 h1{
+  font-size: 30px;
+  line-height: 40px;
+  color: red;
+  margin: 10px;
+  position: absolute;
+}
+.glass3 p{
+  color: var(--font_color);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+}
+.four h1{
+  color: var(--font_color);
+  font-size: 40px;
+  font-weight: 1000;
+  z-index: 3;
+}
+.glass4 p{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--font_color);
+  font-weight: 700;
+}
+.glass4 img{
+  width: 200px;
+  object-fit: fill;
+  border-radius: 20px;
+  margin: 20px;
+}
+@media(max-width: 730px){
+  .glass{
+    max-height: max-content;
+  }
+
+
+@media(max-width: 430px){
+  .glass4{
+    align-items: flex-start;
+  }
+  .glass4{
+    display: inline-block;
+  }}
+  
+  .glass1 h1{
+    font-size: 30px;
+  }
+  .glass2 h1{
+    font-size: 30px;
+  }
+  .glass3 h1{
+    font-size: 30px;
+  }
+  .contact{
+    font-size: 20px;
+  }
+  .four h1{
+    font-size: 26px;
+  }
+  .glass4{
+    align-items: flex-start;
+  }
+  .glass4{
+    display: inline-block;
+  }
+  .glass1 img{
+    width: 170%;
+  }
+  .glass2 img{
+    width: 170%;
+  }
+}
+
+
+
+.scroll-animation {
+  opacity: 1;
+  transform: translateX(0vw);
+  scale: 1;
+}
+@keyframes beat{
+  0%{scale: 0.7;}
+  100%{scale: 2;}
+}
+
+
+ @keyframes flicker {
+  0%{opacity: 0;}
+  10%{opacity: 1;}
+  12%{opacity: 0;}
+  15%{opacity: 1;}
+  17%{opacity: 0.6;}
+  20%{filter: drop-shadow(30px 10px 4px #494952);}
+  24%{opacity: 0;}
+  27%{opacity: 1;}
+  30%{opacity: 0;}
+  34%{opacity: 1;}
+  38%{opacity: 0.6;}
+  43%{filter: drop-shadow(30px 10px 4px #494952);}
+  48%{opacity: 0;}
+  51%{opacity: 1;}
+  56%{opacity: 0;}
+  60%{opacity: 1;}
+  64%{opacity: 0.6;}
+  69%{filter: drop-shadow(30px 10px 4px #494952);}
+  70%{opacity: 0;}
+  74%{opacity: 1;}
+  79%{opacity: 0;}
+  81%{opacity: 1;}
+  83%{opacity: 0.6;}
+  85%{filter: drop-shadow(30px 10px 4px #494952);}
+  86%{opacity: 0;}
+  87%{opacity: 1;}
+  88%{opacity: 0;}
+  92%{opacity: 1;}
+  93%{opacity: 0.6;}
+  94%{filter: drop-shadow(30px 10px 4px #494952);}
+  95%{opacity: 0;}
+  96%{opacity: 1;}
+  97%{opacity: 0;}
+  98%{opacity: 1;}
+  99%{opacity: 0.6;}
+  100%{filter: drop-shadow(30px 10px 4px #494952);}
+ }
+
+
+ .font1{
+  position: relative;
+  visibility: hidden;
+  border: 2px solid snow;
+ }
+ .font1::after{
+  position: absolute;
+  visibility: visible;
+  z-index: 1000;
+  content: '';
+  animation: type1 3s forwards 0.4s;
+  width:max-content;
+  
+  color: var(--font_color);
+  
+}
+
+ @keyframes type1{
+  10%{  content: 'H';
+    border-right: 2px solid snow;
+  }
+  15%{  content: 'HE';
+    border: none;
+  }
+  20%{  content: 'HEL';
+    border-right: 2px solid snow;
+  }
+  28%{  content: 'HELL';
+    border: none;
+  }
+  35%{  content: 'HELLO';
+    border-right: 2px solid snow;
+  }
+  45%{  content: 'HELLO,  ';
+    border: none;
+  }
+  55%{  content: 'HELLO,  W';
+    border-right: 2px solid snow;
+  
+  }
+  60%{  content: 'HELLO,  WE';
+    border: none;
+  }
+  65%{  content: 'HELLO,  WEL';
+    border-right: 2px solid snow;
+
+  
+  }
+  73%{  content: 'HELLO,  WELC';
+    border: none;
+  }
+  81%{  content: 'HELLO,  WELCO'; 
+     border-right: 2px solid snow;
+
+  
+  }
+  91%{  content: 'HELLO,  WELCOM';
+    border: none;
+  }
+  96%{  content: 'HELLO,  WELCOME';
+    border-right: 2px solid snow;
+  }
+  100%{  content: 'HELLO,  WELCOME';
+    border:none;
+  }
+ }
+ .font2{
+  visibility: hidden;
+  position: relative;
+  border: 2px solid snow;
+
+ }
+ .font2::after{
+  position: absolute;
+  z-index: 1000;
+  visibility: visible;
+  content: '';
+  animation: type2 1.7s forwards 2s;
+  width:max-content;
+  margin-top: 5dvi;
+
+  color: var(--font_color);
+  
+}
+
+ @keyframes type2{
+  10%{  content: 'T';
+    border-right: 2px solid snow;
+  }
+  100%{  content: 'TO';
+    border-right: none;
+
+  
+  }
+ }
+ .font3{
+  visibility: hidden;
+  position: relative;
+  border: 2px solid snow;
+ }
+ .font3::after{
+  position: absolute;
+  z-index: 1000;
+  visibility: visible;
+  content: '';
+  animation: type3 2.3s forwards 1.2s; 
+  width:max-content;
+  color: var(--font_color);
+  text-transform: uppercase;
+  margin-top: 10dvi;
+}
+
+ @keyframes type3{
+  10%{  content: 'j';
+    border-right: 2px solid snow;
+  }
+  15%{  content: 'jj';
+    border: none;
+  }
+  20%{  content: 'jj ';
+    border-right: 2px solid snow;
+  }
+  28%{  content: 'jj s';
+    border: none;
+  }
+  35%{  content: 'jj sk';
+    border-right: 2px solid snow;
+  }
+  45%{  content: 'jj ska';
+    border: none;
+  }
+  55%{  content: 'jj skat';
+    border-right: 2px solid snow;
+  
+  }
+  60%{  content: 'jj skati';
+    border: none;
+  }
+  65%{  content: 'jj skatin';
+    border-right: 2px solid snow;
+
+  
+  }
+  73%{  content: 'jj skating';
+    border: none;
+  }
+  81%{  content: 'jj skating '; 
+     border-right: 2px solid snow;
+  }
+  84%{  content: 'jj skating c';
+    border: none;
+  } 
+   88%{  content: 'jj skating cl';
+    border-right: 2px solid snow;
+  }
+  95%{  content: 'jj skating clu';
+    border: none;
+  }
+  97%{  content: 'jj skating club';
+    border-right: 2px solid snow;
+  }
+  100%{  content: 'jj skating club';
+    border-right: none;
+ }}
+ .font{
+  animation:flicker 3s forwards 4s ;
+  width: max-content;
+  top:20dvh;
+  padding: 10%;
+  position: absolute;
+  font-size: 6dvi;
+  font-weight: 900;
+  height: max-content;
+}
+

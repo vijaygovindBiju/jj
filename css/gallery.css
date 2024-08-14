@@ -1,0 +1,38 @@
+
+
+.container {
+  margin-top: 160px;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  z-index: 100;
+
+  box-sizing: border-box;
+  height: 70vh;
+}
+
+.box {
+  z-index: 100;
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 100%;
+  height: 70vh ;
+  object-fit: cover; 
+  transition: .5s;
+}
+
+
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 70vh;
+  object-fit: contain;
+}
