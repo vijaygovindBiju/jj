@@ -57,17 +57,23 @@
 }
 .glass h1{
   font-size: 40px;
-  line-height: 90px;
+  line-height: 40px;
   color: snow;
+  padding-bottom:20px ;
+  text-decoration: underline 4px solid red;
   font-weight: 900;
 }
 .three{
+  padding: auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
   text-wrap-mode:wrap;
   word-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .glas{
   display: flex;
@@ -80,7 +86,7 @@
   border-radius: 50px;
   overflow: hidden;
   width: 200px;
-  height:350px;
+  height:450px;
   opacity: 1;
   z-index: 10;
   display: flex;
@@ -99,55 +105,7 @@
   transform: translateX(70vw);
   scale: 0;
 }
-.glass2{
-  padding:0px 50px 30px 50px;
-  background-color:var(--glass_Back) ;;
-  border-radius: 50px;
-  overflow: hidden;
-  width: 200px;
-  height:350px;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  position: relative;
-  align-items: center;
-  align-content: center;
-  margin: 50px;
-  backdrop-filter: blur(10px);
-  border-top:2px solid rgba(255, 255, 255, 0.9) ;
-  border-left:2px solid rgba(255, 255, 255, 0.7) ;
-  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
-  opacity: 0;
-  transition: 1s all linear;
-  transform: translateX(70vw);
-  scale: 0;
-}
-.glass3{
-  padding:0px 50px 30px 50px;
-  background-color: var(--glass_Back) ;;
-  border-radius: 50px;
-  overflow: hidden;
-  width: 200px;
-  height:350px;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  position: relative;
-  align-items: center;
-  align-content: center;
-  margin: 50px;
-  backdrop-filter: blur(10px);
-  border-top:2px solid rgba(255, 255, 255, 0.9) ;
-  border-left:2px solid rgba(255, 255, 255, 0.7) ;
-  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.753);
 
-  opacity: 0;
-  transition: 1s all linear;
-  transform: translateX(70vw);
-  scale: 0;
-}
 .four{
   display: flex;
   justify-content: center;
@@ -198,59 +156,20 @@
   height: 200px;
   margin: 0%;
   object-fit:cover ;
-
-}
-.glass2 img{
-  width: 150%;
-  height: 200px;
-  object-fit: cover ;
-}
-.glass3 img{
-  width: 160%;
-  height: 200px;
-  object-fit:fill ;
 }
 .glass1 h1{
   font-size: 30px;
   color: red;
   line-height: 25px;
-  position: absolute;
   margin: 10px;
+  text-wrap:nowrap;
+
 }
 .glass1 p{
   font-size: 20px;
   color: var(--font_color);
   font-weight: 700;
   line-height: 27px;
-}
-.glass2 h1{
-  font-size: 30px;
-  color: red;
-  line-height: 25px;
-  position: absolute;
-  margin: 10px;
-  
-}
-.glass2 p{
-  font-size: 20px;
-  line-height: 27px;
-  color: var(--font_color);
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.glass3 h1{
-  font-size: 30px;
-  line-height: 40px;
-  color: red;
-  margin: 10px;
-  position: absolute;
-}
-.glass3 p{
-  color: var(--font_color);
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
-
 }
 .four h1{
   color: var(--font_color);
@@ -318,7 +237,7 @@
 
 .scroll-animation {
   opacity: 1;
-  transform: translateX(0vw);
+  transform: translateX(6vw);
   scale: 1;
 }
 @keyframes beat{
@@ -363,7 +282,7 @@
   97%{opacity: 0;}
   98%{opacity: 1;}
   99%{opacity: 0.6;}
-  100%{filter: drop-shadow(30px 10px 4px #494952);}
+  100%{filter: drop-shadow(30px 20px 4px #494952);}
  }
 
 
@@ -436,6 +355,7 @@
  .font2{
   visibility: hidden;
   position: relative;
+  margin-top: 5dvw;
   border: 2px solid snow;
 
  }
@@ -466,6 +386,7 @@
   visibility: hidden;
   position: relative;
   border: 2px solid snow;
+  margin-top: 5dvw;
  }
  .font3::after{
   position: absolute;
@@ -528,17 +449,23 @@
   97%{  content: 'jj skating club';
     border-right: 2px solid snow;
   }
-  100%{  content: 'jj skating club';
+  98%{  content: 'jj skating club';
     border-right: none;
- }}
+ }
+ 99%{  content: 'jj skating club';
+  border-right: 2px solid snow;
+}100%{  content: 'jj skating club';
+  border-right: none;
+}
+}
  .font{
   animation:flicker 3s forwards 4s ;
   width: max-content;
   top:20dvh;
-  padding: 10%;
   position: absolute;
-  font-size: 6dvi;
+  font-size: 10dvw;
   font-weight: 900;
   height: max-content;
+  margin: 10px;
 }
 

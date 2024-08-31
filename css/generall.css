@@ -20,6 +20,9 @@ body {
   margin: 0;
   height: max-content;
   padding: 0px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   background-image:  var(--background);
 }
 html{
