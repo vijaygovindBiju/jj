@@ -17,6 +17,7 @@
 .two{
   display: flex;
   flex-direction: row;
+  /* dfmmcvlzmv */
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
